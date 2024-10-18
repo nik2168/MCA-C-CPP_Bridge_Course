@@ -1,0 +1,4 @@
+A this is just a sample of code
+to use read and write functionality of java
+we are doing it so as u, can understand 
+things a lot more easier.
