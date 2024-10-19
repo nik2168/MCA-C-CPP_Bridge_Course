@@ -1,4 +1,3 @@
-wap in java to draw a line , oval, rectangle  and text using graphics method
 import javax.swing.*;
 import java.awt.*;
  

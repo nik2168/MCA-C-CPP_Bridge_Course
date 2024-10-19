@@ -1,0 +1,35 @@
+Multithreading
+
+Program - A set of instruction given to computer to perfrom a specific task
+
+Process - An instance of a program that is being executed. When a program runs the os creates an process to manage its execution.
+
+Thread - Thread is a smallest unit of execution within a process, a process could have mulitiple threads which shares the same resources
+but can run independently.
+
+Multitasking - It allows an operating system to run multiple processes simultaneously. On single-core CPUs, this is done through 
+time-sharing, rapidly switching between tasks. On multi-core CPUs, true parallel execution occurs, with tasks distributed 
+across cores. The OS scheduler balances the load, ensuring efficient and responsive system performance.
+Multitasking utilizes the capabilities of a CPU and its cores. When an operating system performs multitasking, it can assign 
+different tasks to different cores. This is more efficient than assigning all tasks to a single core.
+
+Multithreading - It enhances the efficiency of multitasking by breaking down individual tasks into smaller sub-tasks or threads. 
+These threads can be processed simultaneously, making better use of the CPU's capabilities.
+
+In a single-core system:
+Both threads and processes are managed by the OS scheduler through time slicing and context switching to create the illusion of 
+simultaneous execution.
+
+In a multi-core system:
+Both threads and processes can run in true parallel on different cores, with the OS scheduler distributing tasks across the cores
+to optimize performance.
+
+Time Slicing
+• Definition: Time slicing divides CPU time into small intervals called time slices or quanta.
+• Function: The OS scheduler allocates these time slices to different processes and threads, ensuring each gets a fair share of CPU time.
+• Purpose: This prevents any single process or thread from monopolizing the CPU, improving responsiveness and enabling concurrent execution.
+
+Context Switching
+• Definition: Context switching is the process of saving the state of a currently running process or thread and loading the state of the next one to be executed.
+• Function: When a process or thread's time slice expires, the OS scheduler performs a context switch to move the CPU's focus to another process or thread.
+• Purpose: This allows multiple processes and threads to share the CPU, giving the appearance of simultaneous execution on a single-core cpu or improving parallelism on multi-core CPUs.

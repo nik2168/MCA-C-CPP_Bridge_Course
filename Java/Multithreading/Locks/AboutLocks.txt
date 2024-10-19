@@ -1,0 +1,17 @@
+Locks in Java Multithreading
+
+There are mainly two kinds of Locks
+
+1. Intrinsic
+
+These are built into every object in Java.
+You don't see them, but they're there.
+When you use a synchronized keyword, you're using these automatic locks.
+
+
+
+2. Explicit
+
+These are more advanced locks you can control
+yourself using the Lock class from java.util.concurrent.locks.
+You explicitly say when to lock and unlock, giving you more control over how and when people can write in the notebook.
