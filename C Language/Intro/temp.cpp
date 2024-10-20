@@ -1,18 +1,23 @@
 #include<iostream>
 using namespace std;
 
-int sum(int a, int b){
-    return a + b;
-}
+
 
 int main(){
 
-int a = 9;
-int b = 9;
-// int sum(int, int);
+double a = 8;
+double j = 4;
 
-int r = sum(a, b);
-cout<<r<<endl;
+int ans = 0;
+while(a > 0){
+   a -= j;
+   j =  j/2;
+   cout<<ans<<endl;
+   ans++;
+}
+
+cout<<ans;
+
     return 0;
 }
 

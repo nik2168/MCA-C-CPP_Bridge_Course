@@ -26,6 +26,9 @@ printf("The temp number is %d \n", temp);
  float a = 10.4;
  printf("The number is %f \n", a); // f for float
 
+double v = 10.2938752983;
+printf("The double is %lf \n", v);
+
  char c = '3';
  printf("The char is %c \n", c);
 
