@@ -47,7 +47,7 @@ int * ptr = &q;
 int v = *ptr;
 int x;
 
-printf("here is the output .. %d \n" , *ptr);
+printf("here is the output .. %p \n" , *ptr); // %p to print pointers
 
 // array's first index always point to its first index variable location in the memory
 // hence int *p = &arr == &arr[0];

@@ -1,0 +1,16 @@
+Character set
+The character set in C is the collection of characters that can be used in a program's source code. It includes: 
+Alphabets: Uppercase and lowercase letters 
+Digits: The numbers 0–9 
+Special characters: Symbols like +, -, *, /, =, <, >, &, |, !, ^, ~, %, #, \, ;, :, ', " and more 
+White spaces: Spaces, tabs, newlines, and form feeds 
+Escape sequences: Special meaning characters prefixed with a backslash, such as \n (newline), \t (tab), \\ (backslash character), \' (single quote), and \" (double quote) 
+
+Tokens
+Tokens are the smallest units in a C program, similar to Lego blocks. Some types of tokens include: 
+Identifiers: Names given to variables, functions, and arrays 
+Keywords: Reserved words in C that must be written in lowercase 
+Operators: Symbols that operate on one or more operands to give an output 
+Strings: Sequences of characters enclosed within single or double quotation marks 
+Special characters: Parentheses, braces, brackets, semicolons, and more 
+Constants: Fixed values that don't change during execution 
