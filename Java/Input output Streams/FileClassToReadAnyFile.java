@@ -3,6 +3,7 @@ import java.io.*;
 
 // here we are creating files and reading them using the File class & FileWrtier class in java
 
+// buffer reading file read and write programms
 @SuppressWarnings("unused")
 public class FileClassToReadAnyFile{
 

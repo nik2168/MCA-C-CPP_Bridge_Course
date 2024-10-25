@@ -25,3 +25,33 @@ fclose(a);
 
     return 0;
 }
+
+
+// Print whole line by line
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main()
+// {
+//     char *buffer;
+//     size_t bufsize = 32;
+//     size_t characters;
+//     FILE * a = NULL;
+//     char string [80];
+
+//     a = fopen("temp.txt", "r");
+//     buffer = (char *)malloc(bufsize * sizeof(char));
+//     if( buffer == NULL)
+//     {
+//         perror("Unable to allocate buffer");
+//         exit(1);
+//     }
+
+//     printf("Type something: ");
+//     characters = getline(&buffer,&bufsize, a);
+//     printf("%zu characters were read.\n",characters);
+//     printf("You typed: '%s'\n",buffer);
+
+//     return(0);
+// }
