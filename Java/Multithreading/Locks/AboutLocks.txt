@@ -15,3 +15,12 @@ When you use a synchronized keyword, you're using these automatic locks.
 These are more advanced locks you can control
 yourself using the Lock class from java.util.concurrent.locks.
 You explicitly say when to lock and unlock, giving you more control over how and when people can write in the notebook.
+
+
+Reentrant Lock
+
+-> Lock
+-> unlock
+-> trylock
+-> deadlock prevention
+-> lock.lockInterruptibity() -> now any other thread can interupt this thread

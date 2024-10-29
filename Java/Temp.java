@@ -1,8 +1,6 @@
-public class Temp {
-    public static void main (String arg []){
 
-       final int a = 8;
-       System.out.println(a);
-
+public class Temp{
+    public static void main(String[] args) {
+        System.out.println("Hello world");
     }
 }
